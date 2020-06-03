@@ -2,15 +2,15 @@
   --body-bg-color: #f5f7f9;
   --content-bg-color: #fff;
   --card-bg-color: #f5f5f5;
-  --text-color: #555;
+  --text-color: #fff;
   --blockquote-color: #666;
-  --link-color: #555;
-  --link-hover-color: #222;
+  --link-color: #fff;
+  --link-hover-color: #ffa500;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
-  --menu-item-bg-color: #f5f5f5;
+  --menu-item-bg-color: rgba(225,225,225,0.1);
   --btn-default-bg: #fff;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bfffff;
+  background: #ff8e75;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2270,7 +2270,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .header-inner {
-  background: var(--content-bg-color);
+  background: rgba(0,0,0,0.1);
   border-radius: initial;
   box-shadow: initial;
   overflow: hidden;
@@ -2303,7 +2303,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .content-wrap {
-  background: var(--content-bg-color);
+  background: rgba(0,0,0,0.1);
   border-radius: initial;
   box-shadow: initial;
   box-sizing: border-box;
@@ -2337,7 +2337,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .site-brand-container {
-  background: #222;
+  background: rgba(0,0,0,0.1);
 }
 @media (max-width: 991px) {
   .site-brand-container {
@@ -2446,7 +2446,7 @@ ul.breadcrumb li + li:last-child {
   border-bottom-color: #fc6423;
 }
 .sidebar {
-  background: var(--body-bg-color);
+  background: rgba(0,0,0,0.1);
   box-shadow: none;
   margin-top: 100%;
   position: static;
@@ -2461,7 +2461,7 @@ ul.breadcrumb li + li:last-child {
   display: none;
 }
 .sidebar-inner {
-  background: var(--content-bg-color);
+  background: rgba(0,0,0,0.1);
   border-radius: initial;
   box-shadow: initial;
   box-sizing: border-box;
@@ -2487,7 +2487,7 @@ ul.breadcrumb li + li:last-child {
 }
 .sidebar-button a {
   border: 0;
-  color: #fc6423;
+  color: #fff;
   display: block;
 }
 .sidebar-button a:hover {
